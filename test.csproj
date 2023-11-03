@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+      <TargetFramework>net48</TargetFramework>
+      <AssemblyName>MyWebService</AssemblyName>
+      <OutputType>Exe</OutputType>
+      <WebHostHidden>true</WebHostHidden>
+    </PropertyGroup>
+    <ItemGroup>
+      <Reference Include="System.Web.Services" />
+      <Reference Include="System.ServiceModel.Web" />
+
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="System.ServiceModel.Http" Version="4.10.3" />
+      <PackageReference Include="System.ServiceModel.Web" Version="1.0.0" />
+      <PackageReference Include="WCF" Version="1.0.0" />
+    </ItemGroup>
+  </Project>
+  
