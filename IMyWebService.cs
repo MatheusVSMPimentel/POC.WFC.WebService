@@ -3,7 +3,9 @@ using System.ServiceModel;
 
 namespace POC.WFC.WebService
 {
-    [ServiceContract(Namespace = "http://localhost:8000/GettingStarted/MyWebService")]
+    [ServiceContract(
+    Namespace="http://localhost:8000/GettingStarted/",
+    Name="MyWebService")]
     public interface IMyWebService
     {
         [OperationContract]

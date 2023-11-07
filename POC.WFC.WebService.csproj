@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
       <TargetFramework>net48</TargetFramework>
-      <AssemblyName>MyWebService</AssemblyName>
+      <AssemblyName>POC.WFC.WebService</AssemblyName>
       <OutputType>Exe</OutputType>
       <WebHostHidden>true</WebHostHidden>
     </PropertyGroup>
